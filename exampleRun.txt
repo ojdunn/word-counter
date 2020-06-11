@@ -1,0 +1,154 @@
+Script started on Thu 15 Feb 2018 02:12:42 PM EST
+[eos06:~/CIS452/program2]$ a.out GettysburgAddress.txt Hamlet.txt Anthem.txt Fran
+nkenstein.txt GulliversTravels.txt MobyDick.txt Siddhartha.txt TheJungle.txt
+****************Multi-File Word Search****************
+Will search file "GettysburgAddress.txt".
+Will search file "Hamlet.txt".
+Will search file "Anthem.txt".
+Will search file "Frankenstein.txt".
+Will search file "GulliversTravels.txt".
+Will search file "MobyDick.txt".
+Will search file "Siddhartha.txt".
+Will search file "TheJungle.txt".
+Searcher process #8884 created.
+Searcher process #8884 will search file "GettysburgAddress.txt".
+Searcher process #8885 created.
+Searcher process #8886 created.
+Searcher process #8885 will search file "Hamlet.txt".
+Searcher process #8886 will search file "Anthem.txt".
+Searcher process #8887 created.
+Searcher process #8887 will search file "Frankenstein.txt".
+Searcher process #8888 created.
+Searcher process #8889 created.
+Searcher process #8888 will search file "GulliversTravels.txt".
+Searcher process #8889 will search file "MobyDick.txt".
+Searcher process #8890 created.
+Searcher process #8890 will search file "Siddhartha.txt".
+Searcher process #8891 created.
+Searcher process #8891 will search file "TheJungle.txt".
+Enter a word to search (enter CTRL-C or "$$$"to quit): the
+Word "the" written to pipe of process #8884.
+Word "the" written to pipe of process #8885.
+Word "the" written to pipe of process #8886.
+Word "the" written to pipe of process #8887.
+Word "the" written to pipe of process #8888.
+Word "the" written to pipe of process #8889.
+Searcher process #8886 begins searching file "Anthem.txt" for word "the".
+Word "the" written to pipe of process #8890.
+Searcher process #8884 begins searching file "GettysburgAddress.txt" for word "the".
+Searcher process #8888 begins searching file "GulliversTravels.txt" for word "the".
+Word "the" written to pipe of process #8891.
+Searcher process #8890 begins searching file "Siddhartha.txt" for word "the".
+Word "the" will be searched.
+Searcher process #8891 begins searching file "TheJungle.txt" for word "the".
+Parent process #8883 waiting for a word total.
+Child process #8884 wrote a word count to a pipe
+Parent process read count data from pipe of process #8884
+Total "the" in file "GettysburgAddress.txt": 20
+Parent process #8883 waiting for a word total.
+Searcher process #8887 begins searching file "Frankenstein.txt" for word "the".
+Child process #8886 wrote a word count to a pipe
+Child process #8890 wrote a word count to a pipe
+Searcher process #8885 begins searching file "Hamlet.txt" for word "the".
+Child process #8885 wrote a word count to a pipe
+Parent process read count data from pipe of process #8885
+Total "the" in file "Hamlet.txt": 1657
+Parent process #8883 waiting for a word total.
+Parent process read count data from pipe of process #8886
+Total "the" in file "Anthem.txt": 2030
+Parent process #8883 waiting for a word total.
+Searcher process #8889 begins searching file "MobyDick.txt" for word "the".
+Parent process read count data from pipe of process #8887
+Total "the" in file "Frankenstein.txt": 5275
+Parent process #8883 waiting for a word total.
+Child process #8887 wrote a word count to a pipe
+Child process #8888 wrote a word count to a pipe
+Parent process read count data from pipe of process #8888
+Total "the" in file "GulliversTravels.txt": 8665
+Parent process #8883 waiting for a word total.
+Child process #8891 wrote a word count to a pipe
+Child process #8889 wrote a word count to a pipe
+Parent process read count data from pipe of process #8889
+Total "the" in file "MobyDick.txt": 18866
+Parent process #8883 waiting for a word total.
+Parent process read count data from pipe of process #8890
+Total "the" in file "Siddhartha.txt": 2750
+Parent process #8883 waiting for a word total.
+Parent process read count data from pipe of process #8891
+Total "the" in file "TheJungle.txt": 13308
+Total "the" found across all files: 52571
+
+Enter a word to search (enter CTRL-C or "$$$"to quit): it
+Word "it" written to pipe of process #8884.
+Word "it" written to pipe of process #8885.
+Word "it" written to pipe of process #8886.
+Word "it" written to pipe of process #8887.
+.Searcher process #8884 begins searching file "GettysburgAddress.txt" for word "it".
+.Searcher process #8885 begins searching file "Hamlet.txt" for word "it".
+.Searcher process #8886 begins searching file "Anthem.txt" for word "it".
+Word "it" written to pipe of process #8888.
+Child process #8884 wrote a word count to a pipe
+.Searcher process #8888 begins searching file "GulliversTravels.txt" for word "it".
+Word "it" written to pipe of process #8889.
+Word "it" written to pipe of process #8890.
+.Searcher process #8887 begins searching file "Frankenstein.txt" for word "it".
+Word "it" written to pipe of process #8891.
+Word "it" will be searched.
+Parent process #8883 waiting for a word total.
+.Searcher process #8891 begins searching file "TheJungle.txt" for word "it".
+Parent process read count data from pipe of process #8884
+Total "it" in file "GettysburgAddress.txt": 5
+Parent process #8883 waiting for a word total.
+.Searcher process #8889 begins searching file "MobyDick.txt" for word "it".
+Child process #8886 wrote a word count to a pipe
+.Searcher process #8890 begins searching file "Siddhartha.txt" for word "it".
+Child process #8885 wrote a word count to a pipe
+Parent process read count data from pipe of process #8885
+Total "it" in file "Hamlet.txt": 1121
+Parent process #8883 waiting for a word total.
+Parent process read count data from pipe of process #8886
+Total "it" in file "Anthem.txt": 610
+Parent process #8883 waiting for a word total.
+Child process #8890 wrote a word count to a pipe
+Child process #8887 wrote a word count to a pipe
+Parent process read count data from pipe of process #8887
+Total "it" in file "Frankenstein.txt": 2491
+Parent process #8883 waiting for a word total.
+Child process #8888 wrote a word count to a pipe
+Parent process read count data from pipe of process #8888
+Total "it" in file "GulliversTravels.txt": 3547
+Parent process #8883 waiting for a word total.
+Child process #8891 wrote a word count to a pipe
+Child process #8889 wrote a word count to a pipe
+Parent process read count data from pipe of process #8889
+Total "it" in file "MobyDick.txt": 7565
+Parent process #8883 waiting for a word total.
+Parent process read count data from pipe of process #8890
+Total "it" in file "Siddhartha.txt": 1289
+Parent process #8883 waiting for a word total.
+Parent process read count data from pipe of process #8891
+Total "it" in file "TheJungle.txt": 5470
+Total "it" found across all files: 22098
+
+Enter a word to search (enter CTRL-C or "$$$"to quit): ^C
+^C received. Shutting down searcher process #8884.
+
+^C received. Shutting down searcher process #8885.
+
+^C received. Shutting down searcher process #8886.
+
+^C received. Shutting down searcher process #8887.
+
+^C received. Shutting down searcher process #8888.
+
+^C received. Shutting down searcher process #8889.
+
+^C received. Shutting down searcher process #8890.
+
+^C received. Shutting down searcher process #8891.
+
+Shutting down parent process.
+: Success
+[eos06:~/CIS452/program2]$ exit
+
+Script done on Thu 15 Feb 2018 02:12:59 PM EST
