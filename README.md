@@ -14,7 +14,7 @@ When the program starts, a message from the command line instructs the user to e
 
 * **Use:** enter a word to search and count
 
-* **Quit:** `<CTRL-C> or '$$$'`
+* **Quit:** `CTRL-C or "$$$"`
 
 ## **Possible improvements:**
 - [ ] Include options, such as -v for verbose, to not be verbose by default.
